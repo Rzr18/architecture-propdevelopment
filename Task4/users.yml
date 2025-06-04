@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: user-developer
+  namespace: default
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: user-devops
+  namespace: default
